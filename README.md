@@ -3,7 +3,7 @@ Challenge at LeetCode.com. Tags: Square Root Decomposition Technique, Design, Ci
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-The purpose of the presented solutions is to demonstrate the Square Root Decomposition Technique. Thus, we design chained compressed sections (buckets), whose number is equal to the square root of the input upper limit. If the square root has a remainder, then the size <br/>of the last compressed section will be less than the size of the previous compressed sections.
+The purpose of the presented solutions is to demonstrate the Square Root Decomposition Technique. Thus, we design chained compressed sections (buckets), whose number is equal to the square root of the input upper limit. If the square root has a remainder, then the size of the last compressed section will be less than the size of the previous compressed sections.
 
 By this problem we have to remove a random element from a certain compressed section as well as move the first element of the subsequent compressed sections to the last elements of the previous compressed sections in order to restore the original length of the compressed sections.
 
