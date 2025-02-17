@@ -5,7 +5,7 @@ Challenge at LeetCode.com. Tags: Square Root Decomposition Technique, Design, Ci
 
 The purpose of the presented solutions is to demonstrate the Square Root Decomposition Technique. Thus, we design chained compressed sections (buckets), whose number is equal to the square root of the input upper limit. If the square root has a remainder, then the size <br/>of the last compressed section will be less than the size of the previous compressed sections.
 
-By this problem we have to remove a random element from a certain compressed section as well as move the first element of the subsequent compressed section to the last elements of the previous compressed section in order to restore the original length of the compressed sections.
+By this problem we have to remove a random element from a certain compressed section as well as move the first element of the subsequent compressed sections to the last elements of the previous compressed sections in order to restore the original length of the compressed sections.
 
 One way to do this efficiently is by representing each compressed section with a Linked List. Another possibility is to create a customizedCircular Array, where instead of  physically removing an element, we only shift the start index and the end index of the arrayin a circular manner. The solutions here apply the latter approach, namely, representing each compressed section with a Circular Array. 
 
